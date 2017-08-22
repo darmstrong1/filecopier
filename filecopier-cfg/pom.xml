@@ -1,0 +1,24 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>filecopier</artifactId>
+    <groupId>net.sf.filecopier</groupId>
+    <version>2.0.0</version>
+  </parent>
+  <artifactId>filecopier-cfg</artifactId>
+  <name>filecopier-cfg</name>
+  <description>Application Configuration Settings</description>
+  <scm>
+  	<connection>scm:svn:http://filecopier01.googlecode.com/svn/trunk/filecopier/filecopier-cfg</connection>
+  	<developerConnection>scm:svn:https://filecopier01.googlecode.com/svn/trunk/filecopier/filecopier-cfg</developerConnection>
+  	<tag>HEAD</tag>
+  	<url>http://filecopier01.googlecode.com/svn/trunk/filecopier/filecopier-cfg</url>
+  </scm>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.sf.filecopier</groupId>
+  		<artifactId>filecopier-script</artifactId>
+  		<version>2.0.0</version>
+  	</dependency>
+  </dependencies>
+</project>
